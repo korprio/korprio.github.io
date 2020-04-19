@@ -1,5 +1,4 @@
 {
-  "homepage": "http://korprio.github.io",
   "name": "kory-prior-portfolio",
   "description": "Kory's Portfolio",
   "version": "1.0.0",
@@ -10,7 +9,7 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "prettier": "prettier --write 'src/**/*.js'",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "devDependencies": {
     "anchorate": "1.2.3",
